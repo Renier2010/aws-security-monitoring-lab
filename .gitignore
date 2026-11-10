@@ -1,0 +1,22 @@
+# Terraform working files
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Debug logs
+*.log
+crash.*
+
+# Environment and credential files
+.env
+*.pem
+*.key
